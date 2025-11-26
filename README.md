@@ -22,7 +22,7 @@ Projeto desenvolvido no 4º período do curso de Gestão da Tecnologia da Inform
 
 ```bash
 npm install
-npm run serve
+npm start
 ```
 
 Acesse no navegador: `http://localhost:3000`
