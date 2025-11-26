@@ -25,7 +25,7 @@ npm install
 npm run serve
 ```
 
-Acesse no navegador: `http://localhost:5000`
+Acesse no navegador: `http://localhost:3000`
 
 ## Aprendizados
 
