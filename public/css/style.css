@@ -1,0 +1,114 @@
+
+
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 20px; 
+    background: #f7f7f7; 
+    color: #222; 
+    display: flex;
+    flex-direction: column;
+}
+.principal{
+    padding: 2rem;
+    margin: 2rem auto;
+    border: 2px solid #ccc;
+}
+.nav-link{
+    text-align: center;
+}
+header nav { 
+    margin-bottom: 2rem; 
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+
+
+a { 
+    color: #007bff; 
+    text-decoration: none; 
+}
+
+a:hover { 
+    text-decoration: underline; 
+}
+
+
+
+
+
+
+form { 
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+label, input{
+    margin: 0.3rem;
+}
+
+input[type="text"] { 
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+button { 
+    margin: 0.3rem auto;
+    width: 100px;
+    padding: 8px 12px; 
+    border: none; 
+    background: #007bff; 
+    color: white; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+button:hover { 
+    opacity: 0.9; 
+}
+
+table { 
+    width: 100%;
+     border-collapse: collapse;
+      margin-top: 10px; 
+      background: #fff; 
+    }
+
+table th, table td { 
+    padding: 8px 10px; 
+    border: 1px solid #ddd; 
+    text-align: left; 
+}
+
+.error { 
+    color: #a00; 
+}
+
+.marca{
+    display: flex;
+    gap: 0.5rem;
+}
+.marca p{
+ font-weight: bold;
+ line-height: 20px;
+ font-size: 32px;
+}
+
+.lista{
+    padding: 0;
+}
+li{
+list-style: none;
+border: 2px solid #ccc;
+padding: 0.3rem;
+
+}

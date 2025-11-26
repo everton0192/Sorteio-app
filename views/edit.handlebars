@@ -1,0 +1,9 @@
+<h1>Editar participante</h1>
+
+<form action="/participants/{{participant.id}}?_method=PUT" method="POST">
+  <label for="name">Nome:</label>
+  <input type="text" id="name" name="name" value="{{participant.name}}" required />
+  <button type="submit">Salvar</button>
+</form>
+
+<p><a href="/participants">Voltar à lista</a></p>

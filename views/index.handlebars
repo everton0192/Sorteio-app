@@ -1,0 +1,14 @@
+<h1>Registrar participante</h1>
+
+{{#if error}}
+  <p class="error">{{error}}</p>
+{{/if}}
+
+<form action="/participants" method="POST">
+  <label for="name">Nome:</label>
+  <input type="text" id="name" name="name" placeholder="Seu nome" required />
+  <button type="submit">Adicionar</button>
+</form>
+
+<hr/>
+<p class="nav-link"><a href="/participants">Lista de participantes</a> ou <a href="/draw">sorteio</a>.</p>

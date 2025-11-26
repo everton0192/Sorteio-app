@@ -1,0 +1,31 @@
+<h1>Sorteio</h1>
+
+{{#if message}}
+  <p>{{message}}</p>
+{{/if}}
+
+{{#if participants.length}}
+  <p>Participantes: {{participants.length}}</p>
+
+  <form action="/draw" method="POST">
+    <button type="submit">Sortear</button>
+  </form>
+
+  {{#if winner}}
+    <hr/>
+    <h2>Vencedor</h2>
+    <p><strong>{{winner.name}}</strong></p>
+  {{/if}}
+
+  <hr/>
+  <h3>Lista</h3>
+  <ul class="lista">
+    {{#each participants}}
+      <li>{{this.name}}</li>
+    {{/each}}
+  </ul>
+{{else}}
+  <p>Não há participantes ainda. <a href="/">Adicione um participante</a>.</p>
+{{/if}}
+
+<p><a href="/participants">Gerenciar participantes</a></p>
